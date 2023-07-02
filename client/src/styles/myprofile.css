@@ -1,0 +1,129 @@
+
+
+.thumbnail-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/f9/43/e6/f943e64c2001de113906b9e9d9f4a135.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    width: 90vw;
+    height:200px;
+    margin: 50px auto;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.giphy.com/media/l3q2A93zxqHnFDkuQ/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.userName p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.userFollowers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.userFollowers p {
+    margin-right: 30px;
+    font-weight: 300;
+}
+
+.userFollowers p strong {
+    font-weight: 900;
+}
+
+
+
+
+
+.myProfile{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 100px;
+
+}
+.card {
+    width: 400px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+#myProject-poster {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+}
+#project-poster:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+}
+
+.project-poster-wrapper {
+    height: 300px;
+}
+
+.myProject-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#projectTitle {
+    margin: 20px auto;
+}
+
+.ctaProfile {
+    opacity: 1;
+    position: relative;
+    top: 120px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ctaProfile:hover {
+    opacity: 1;
+    position: relative;
+    top: 120px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 26, 25, .3);
+    transition: 0.5s ease-in-out;
+}
