@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { GetProjects } from '../services/PostServices'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 // import Comment from '../components/Comment'
 import '../styles/feed.css'
 import Footer from '../components/Footer'

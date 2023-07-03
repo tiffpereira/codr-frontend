@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { GetProjects } from '../services/PostServices'
 import { useNavigate } from 'react-router-dom'
-import { GetComments } from '../services/PostServices'
+// import { GetComments } from '../services/PostServices'
 import DeleteProjectBtn from "../components/DeleteProjectBtn"
 import UpdateProjectBtn from "../components/UpdateProjectButton"
 import '../styles/App.css'
@@ -11,7 +11,7 @@ import '../styles/myprofile.css'
 
 const MyProfile = ( {user, authenticated} ) => {
     const [projects, setProjects] = useState([])
-    const [comments, setComments] = useState([])
+    // const [comments, setComments] = useState([])
 
     let navigate = useNavigate()
 
@@ -21,13 +21,13 @@ const MyProfile = ( {user, authenticated} ) => {
             setProjects(data)
         }
         
-        const handleComments = async () => {
-            const data = await GetComments()
-            setComments(data)
-        }
+        // const handleComments = async () => {
+        //     const data = await GetComments()
+        //     setComments(data)
+        // }
 
         handleProjects()
-        handleComments()
+        // handleComments()
     }, [])
 
     // console.log(projects[0].Comments)
