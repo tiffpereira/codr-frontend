@@ -53,7 +53,7 @@ const Feed = ( {user, authenticated } ) => {
             style={{ display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', marginTop:'200px'}}>
         <h3 
         style={{  fontSize:'36px' }}className="signin-header">
-            Ya gotta login to do that, Bub 💩 </h3>
+            Please login to do that. </h3>
             <button style={{ margin:'10px 0' }}className="landingbutton" onClick={() => navigate('/signin')}> Sign in</button>
             <button className="landingbuttonSignin" onClick={() => navigate('/')}>Back to Home</button>
         </div>
